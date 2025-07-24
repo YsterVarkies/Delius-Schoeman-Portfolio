@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav>
+            <span class = "sWelcome">Welcome!</span>
+
+            <div class="nav-links">
+                <a class = "links" href = "#" onclick="scrollToElement('About_Me')">About Me</a>
+                <a class = "links" href = "#" onclick="scrollToElement('Resume')">Resume/CV</a>
+                <a class = "links" href = "#" onclick="scrollToElement('Projects')">Projects</a>
+                <a class = "links" href = "#" onclick="scrollToElement('Skills')">Skills</a>
+            </div>
+            
+            <button type = "button" class="btnContact" onclick="scrollToElement('ContactMe')">Contact Me!</button>
+        </nav>
+
+        <header class = "container">
+            <div class="Content">
+                <span class = "blur"></span>
+                <span class = "blur"></span>
+                <br><br>
+                <h1>Hello, I’m Delius Schoeman</h1>
+                <br>
+                <p>Welcome to my website — I’m glad you’re here.</p>
+                <p>Please don’t hesitate to reach out if you have any questions or would like to get in touch.</p>
+                <p>I hope you find the content valuable and enjoy your visit.</p>
+
+            </div>
+            <img src = "Pictures/about_me.png" class = "imgAboutMe">   
+        </header>
+        
+        <div class="AboutMe" id = "About_Me">
+            <div class="Content">
+                <span class = "blur"></span>
+                <h1>About Me</h1>
+                <br>
+                <p>My name is Delius Schoeman, and I am currently studying Information Technology at North-West University.</p> 
+                <p>I was born on December 22, 2003.</p>
+                <br><p>In my free time, I enjoy going to the gym and participating in a variety of sports, including hockey, squash, basketball, soccer, and netball. I also spend time playing video games.</p>
+                <br><p>Coding is more than just a hobby for me — it is my true passion.</p> 
+                <br><p>I thrive on challenges and have a strong desire to continuously learn and grow.</p> 
+                <p>Additionally, I have a deep appreciation for travel and love exploring the beauty the world has to offer.</p>
+            </div>
+            
+            <img src = "Pictures/Delius_Schoeman.jpg" class = "imgDelius">
+        </div>
+
+        <div class="Resume" id = "Resume">
+            <h1>Resume/CV</h1>
+
+            <div class="Border">
+                <embed src="CV Delius Schoeman.pdf" type="application/pdf" class="docViewer"/>
+            </div>
+        </div>
+
+        <div class="Projects" id = "Projects">
+            <h1>Projects</h1>
+            
+            <div class="Box">
+                    <h2>Github <i class="ri-github-fill"></i></h2>
+                    <br>
+                    <p>Here you will find a few projects that I am currently working on.</p>
+                    <p>Click the button below to view my projects in github.</p>
+                    <br>
+                    <a href="https://github.com/YsterVarkies?tab=repositories" class = "btnContact">Go now<i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <div class="Skills" id = "Skills">
+            <h1>Skills</h1>
+            <span class = "blur"></span>
+            <span class="blur"></span>
+            <br><br>
+            <div class="card-box">
+                <div class="card">
+                    <h2>Coding</h2>
+                    <span class = "icon"><i class="ri-code-box-fill"></i></span>
+                    <br>
+                    <br>
+                    <p>I am passionate about coding and have developed strong skills and talent in both programming and website design.</p> 
+                    <br><p>I am capable of creating any type of website or software to meet your needs.</p> 
+                </div>
+                <div class="card">
+                    <h2>Problem solver</h2>
+                    <span class = "icon"><i class="ri-bug-line"></i></span>
+                    <br>
+                    <br>
+                    <p>I find challenges to be both engaging and rewarding, as they offer valuable opportunities for growth and learning.</p> 
+                    <br><p>Each challenge I encounter strengthens my problem-solving abilities and enhances my adaptability.</p> 
+                    <br><p>I approach every obstacle with determination, believing that no challenge is insurmountable.</p>
+                </div>
+                <div class="card">
+                    <h2>Quick learner</h2>
+                    <span class="icon"><i class="ri-brain-line"></i></span>
+                    <br>
+                    <br>
+                    <p>I am a quick learner, able to grasp new concepts and technologies efficiently.</p> 
+                    <br><p>This allows me to adapt swiftly to changing environments and take on new challenges with confidence.</p> 
+                    <br><p>My ability to learn rapidly enables me to contribute effectively, even in unfamiliar situations.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ContactMe" id = "ContactMe">
+            <h1>Contact Details</h1>
+            <br>
+            <h3>Want to get in touch?</h3>
+            <p>Please do not hesitate to contact me at anytime.</p>
+            <br>
+            <br>
+            <div class="Information">
+                <section class = "section1">
+                    <h4>Personal information:</h4>
+                    <br>
+                    <p><i class="ri-smartphone-line"></i>: 0792183025</p>
+                    <p><i class="ri-mail-line"></i>: deliusschoeman.ds@gmail.com</p>
+                </section>
+                <section class = "section2">
+                    <h4>Social media links:</h4>
+                    <br>
+                    <div class="link">
+                        <a href="https://discordapp.com/users/495506815765839872"><i class="ri-discord-fill"></i></a>
+                        <a href="https://www.instagram.com/x_delius_x/"><i class="ri-instagram-line"></i></a>
+                        <a href="https://github.com/YsterVarkies"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/delius-schoeman-ab6920376/"><i class="ri-linkedin-line"></i></a>
+                    </div>
+                    
+                </section>
+                
+            </div>
+            
+        </div>
+
+    </body>
+    <script src = "script.js"></script>
+</html>
