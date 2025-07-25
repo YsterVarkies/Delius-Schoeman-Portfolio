@@ -329,13 +329,49 @@ nav{
         display:none;
     }
 
+    .imgAboutMe{
+        width: 100%;
+    }
+
+    .AboutMe .blur{
+        margin:auto;
+        transform: translateY(180px);
+    }
+
+    .docViewer{
+        width: 100%;
+    }
+
+    .Resume{
+        margin: 0;
+        padding:0rem 1rem 0rem 1rem;
+        width: 100%;
+        position: relative;
+    }
+
+    .Information{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1{
+        margin-bottom: 2rem;
+    }
+
+    .Border{
+        position: relative;
+        width: 100%;
+        margin:0;
+    }
+
     .nav-links{
         display: none;
     }
 
     .sWelcome{
         margin:auto;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .container{
