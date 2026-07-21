@@ -359,6 +359,8 @@ nav{
 
     .nav-links.active{
         justify-content: center;
+        width: 350px;
+        margin:auto;
     }
 
     .nav-links{
