@@ -264,6 +264,12 @@ nav{
     opacity: 0.6;
 }
 
+@media (max-width: 1151px){
+    nav{
+        gap: 1rem;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1024px){
 
     .container{
@@ -271,6 +277,10 @@ nav{
         justify-items: center;
         padding: 10rem 2rem 15rem 2rem;
 
+    }
+
+    nav{
+        padding: 2rem 3rem 2rem 3rem;
     }
 
     .AboutMe{
@@ -351,7 +361,7 @@ nav{
         padding:10rem 1rem 0rem 1rem;
         width: 100%;
         position: relative;
-        height: 1000px;
+        height: 750px;
     }
 
     .Information{
