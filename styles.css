@@ -325,6 +325,10 @@ nav{
         padding:0;
     }
 
+    nav{
+        padding: 2rem 2rem;
+    }
+
     .btnContact{
         display:none;
     }
