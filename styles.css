@@ -399,6 +399,10 @@ nav{
         padding:0;
     }
 
+    .container,
+    .AboutMe{
+        overflow: visible;
+    }
     .links{
         width: 100%;
         text-align: center;
@@ -435,9 +439,12 @@ nav{
         z-index: 1000;
     }
 
+
+
     .container .blur{
         top:100px;
         left:0px;
+        z-index: 9999999;
     }
 
     .AboutMe .Content{
@@ -521,6 +528,7 @@ nav{
         display: block;
         justify-items: center;
         padding: 10rem 2rem 15rem 2rem;
+        position: relative;
     }
 
     .container .Content{
@@ -529,9 +537,6 @@ nav{
        align-items: center;
     }
 
-    .container .Content .blur{
-        translate: 0px 50px;
-    }
 
     .AboutMe h1{
         text-align: center;
@@ -540,6 +545,7 @@ nav{
     .AboutMe{
         display: block;
         padding:0rem 2rem 0rem 2rem;
+        position: relative;
     }
 
     .AboutMe .Content{
@@ -550,6 +556,7 @@ nav{
         top:200px;
         left:45%;
         box-shadow: 0px 0px 300px 150px rgb(0, 119, 255);
+        z-index: 99999;
     }
 
     .imgDelius{
