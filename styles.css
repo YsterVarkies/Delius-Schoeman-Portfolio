@@ -364,20 +364,28 @@ nav{
     }
 
     .nav-links{
-        position:absolute;
-        top:80px;
-        right:20px;
-        display:none;
-        flex-direction:column;
-        gap:1rem;
-        width:240px;
-        background:rgba(33,33,38,.95);
-        backdrop-filter:blur(15px);
-        padding:1rem;
-        border-radius:15px;
-        border:1px solid rgba(255,255,255,.08);
-        box-shadow:0 10px 40px rgba(0,0,0,.45);
-        z-index:1000;
+        position: absolute;
+
+        top: calc(100% + 15px);
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 220px;
+
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: .5rem;
+
+        padding: 1rem;
+
+        background: rgba(33,33,38,.95);
+        backdrop-filter: blur(15px);
+
+        border-radius: 15px;
+        border: 1px solid rgba(255,255,255,.08);
+        box-shadow: 0 10px 40px rgba(0,0,0,.45);
+        z-index: 1000;
     }
 
     .nav-links a{
@@ -396,6 +404,7 @@ nav{
 
     nav{
         padding: 2rem 2rem 0rem 2rem;
+        position: relative;
     }
 
     .imgAboutMe{
@@ -438,20 +447,6 @@ nav{
 
     .btnContact{
         display:none;
-    }
-
-    .nav-links{
-        position:absolute;
-        top:100%;
-        left:0;
-        width:100%;
-        background:#18181B;
-        display:none;
-        flex-direction:column;
-        align-items:center;
-        gap:2rem;
-
-        padding:2rem 0;
     }
 
     .hamburger{
