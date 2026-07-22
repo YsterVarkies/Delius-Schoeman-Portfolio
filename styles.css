@@ -102,7 +102,7 @@ nav{
 
 .blur{
     position: absolute;
-    box-shadow: 0px 0px 1000px 80px rgb(0, 119, 255);
+    box-shadow: 0px 0px 1000px 150px rgb(0, 119, 255);
     z-index: -10;
     margin-left: 50px;
     margin-top: 50px;
@@ -361,6 +361,18 @@ nav{
     .ContactMe h1{
         text-align: center;
     }
+
+    .card h2{
+        text-align: center;
+    }
+
+    .card .icon{
+        text-align: center;
+    }
+
+    .ContactMe h4{
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -369,6 +381,14 @@ nav{
         padding:0;
         margin:0;
         box-sizing: border-box;
+    }
+
+    .blur{
+        position: absolute;
+        box-shadow: 0px 0px 700px 150px rgb(0, 119, 255);
+        z-index: -10;
+        margin-left: 50px;
+        margin-top: 50px;
     }
 
     body{
@@ -563,7 +583,13 @@ nav{
         text-align: center;
     }
 
+    .card h2{
+        text-align: center;
+    }
 
+    .card .icon{
+        text-align: center;
+    }
 
     .Information{
         width: 100%;
@@ -585,6 +611,10 @@ nav{
     }
 
     .ContactMe h1{
+        text-align: center;
+    }
+
+    .ContactMe h4{
         text-align: center;
     }
 }
