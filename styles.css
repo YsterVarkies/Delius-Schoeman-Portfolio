@@ -408,6 +408,7 @@ nav{
 
     .Information{
         gap: 5rem;
+        background-color: red;
     }
 
 }
