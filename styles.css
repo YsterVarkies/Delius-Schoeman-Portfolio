@@ -341,7 +341,7 @@ nav{
 @media (min-width: 768px) and (max-width: 1155px){
 
     .container{
-        padding: 10rem 1rem 10rem 1rem;
+        padding: 10rem 3rem 10rem 3rem;
         position: relative;
     }
 
@@ -359,8 +359,12 @@ nav{
         align-items: center;
         justify-content: space-between;
         position: relative;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 3rem 0rem 3rem;
         margin-bottom: 250px;
+    }
+
+    .Skills{
+        padding: 3rem 3rem;
     }
 
     .AboutMe h1{
@@ -408,7 +412,6 @@ nav{
 
     .Information{
         gap: 5rem;
-        background-color: red;
     }
 
 }
