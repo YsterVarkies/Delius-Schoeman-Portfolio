@@ -114,15 +114,20 @@ nav{
 
 .blur{
     position: absolute;
-    width: 1px;
-    height: 1px;
-    box-shadow: 0 0 350px 100px rgb(0,119,255);
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,119,255,0.55) 0%, rgba(0,119,255,0) 70%);
+    filter: blur(40px);
+    pointer-events: none;
     z-index: 1;
 }
 
 .container .blur{
-    top: 35%;
-    left: 10%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, -10%);
 }
 
 .AboutMe{
@@ -147,8 +152,9 @@ nav{
 .AboutMe .blur{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 28%;
     z-index: 0;
+    transform: translate(-50%, -50%);
 }
 
 .imgAboutMe{
@@ -239,6 +245,7 @@ nav{
     color:white;
     margin-top: 15rem;
     position: relative;
+    z-index: -3;
 }
 
 .icon{
@@ -247,10 +254,10 @@ nav{
 
 .Skills .blur{
     z-index: -1;
-    box-shadow: 0 0 400px 120px rgb(0,119,255);
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Skills h1{
@@ -283,6 +290,7 @@ nav{
 .Information{
     display: flex;
     gap: 15rem;
+    text-align: center;
 }
 
 
@@ -322,7 +330,7 @@ nav{
         display: block;
         justify-items: center;
         padding: 10rem 2rem 15rem 2rem;
-
+        position: relative;
     }
 
     nav{
@@ -386,9 +394,6 @@ nav{
         text-align: center;
     }
 
-    .ContactMe h4{
-        text-align: center;
-    }
 }
 
 @media (max-width: 767px) {
@@ -478,7 +483,7 @@ nav{
         padding:10rem 1rem 0rem 1rem;
         width: 100%;
         position: relative;
-        height: 750px;
+        height: 900px;
     }
 
     .Information{
@@ -527,6 +532,8 @@ nav{
     .container .blur{
         position: absolute;
         left: 50%;
+        top: 50%;
+        transform: translate(-50%, -90%);
     }
 
     .container .Content{
@@ -623,10 +630,6 @@ nav{
     }
 
     .ContactMe h1{
-        text-align: center;
-    }
-
-    .ContactMe h4{
         text-align: center;
     }
 }

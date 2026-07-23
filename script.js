@@ -9,7 +9,7 @@ const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", (e) => {
-    e.stopPropagation(); // Prevent the document click from firing
+    e.stopPropagation();
     navLinks.classList.toggle("active");
 });
 
