@@ -534,6 +534,7 @@ nav{
         left: 50%;
         top: 50%;
         transform: translate(-50%, -90%);
+        width: 100vw;
     }
 
     .container .Content{
@@ -561,6 +562,11 @@ nav{
         position: absolute;
         top: 25%;
         left: 50%;
+        width: 100vw;
+    }
+
+    .Skills .blur{
+        width: 100vw;
     }
 
     .imgDelius{
