@@ -290,7 +290,8 @@ nav{
 .Information{
     display: flex;
     gap: 15rem;
-    text-align: center;
+    justify-content: center;
+    background-color: red;
 }
 
 
@@ -318,10 +319,30 @@ nav{
     opacity: 0.6;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 940px){
+
+    .nav-links{
+    gap: 1.5rem;
+    }
+
+    .sWelcome{
+        font-size: 2rem;
+    }
+
+    .btnContact{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    .imgAboutMe{
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1155px){
 
     .container{
-        padding: 10rem 2rem 10rem 5rem;
+        padding: 10rem 1rem 10rem 1rem;
         position: relative;
     }
 
